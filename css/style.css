@@ -1,0 +1,94 @@
+html, body{
+    position: absolute; height: 100%;
+}
+
+.header {
+  background-color: #CACACA;
+  width: 100%;
+  height: 20px;
+  padding: 10px 0px;
+  box-shadow: 0px 1px 10px #CACACA;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+}
+
+.left-right_Box .left {
+  display: inline-block;
+  float:left;
+  font-weight: bold;
+  text-align:left;
+  padding-left: 10px;
+  color: #948F72;
+  font-family: Roboto;
+  font-size: 18;
+}
+
+.left-right_Box .right {
+  display: inline-block;
+  float:right;
+  text-align:right;
+  padding-right: 10px;
+  color: #948F72;
+  font-family: Roboto;
+  font-size: 18;
+}
+
+.left-middle-right_Box .left {
+  display: inline-block;
+  float:left;
+  text-align:left;
+  padding-left: 10px;
+  font-family: Roboto;
+  font-size: 18;
+}
+
+.left-middle-right_Box .middle {
+  display: inline-block;
+  text-align:left;
+  float: left;
+  padding-left: 10px;
+  font-family: Roboto;
+  font-size: 18;
+}
+
+.left-middle-right_Box .right {
+  display: inline-block;
+  float:right;
+  text-align:left;
+  padding-right: 10px;
+  font-family: Roboto;
+  font-size: 18;
+}
+
+.contents_field {
+  background-color: #FFFFFF;
+  margin: 0px;
+  width: 100%;
+  height: calc(70% - 50px);
+  padding-top: 50px;
+  position: fixed;
+  top: 0px;
+  box-shadow: 0px 1px 10px #CACACA;
+}
+
+.order {
+  background-color: #F8F2DC;
+  width: 200px;
+  margin: 10px 30px;
+  padding: 20px;
+  font-family: Roboto;
+  box-shadow: 0px 1px 3px #CACACA;
+}
+
+.footer {
+  background-color: #F8F2DC;
+  margin: 0px;
+  width: 100%;
+  height: 30%;
+  position: fixed;
+  bottom: 0px;
+  z-index: -1;
+}
+
+
